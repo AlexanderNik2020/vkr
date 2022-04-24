@@ -1,0 +1,438 @@
+@prefix : <http://irnok.net/ontology/geopollution#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://irnok.net/ontology/geopollution> .
+
+<https://irnok.net/ontology/geopollution> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://irnok.net/ontology/geopollution#contains
+:contains rdf:type owl:ObjectProperty ;
+          rdfs:domain <https://dbpedia.org/page/Sample_(material)> ;
+          rdfs:range :Contaminant ,
+                     :RockFormingElement ,
+                     :RockFormingOxide ;
+          rdfs:label "contains"@en ,
+                     "содержит"@ru .
+
+
+###  http://irnok.net/ontology/geopollution#locatedAt
+:locatedAt rdf:type owl:ObjectProperty ;
+           rdfs:domain <https://dbpedia.org/page/Sample_(material)> ;
+           rdfs:range <https://dbpedia.org/page/Place> ;
+           rdfs:label "located at"@en ,
+                      "находится"@ru .
+
+
+###  http://irnok.net/ontology/geopollution#pollutedBy
+:pollutedBy rdf:type owl:ObjectProperty ;
+            rdfs:domain <https://dbpedia.org/page/Sample_(material)> ;
+            rdfs:range :RockFormingOxide ,
+                       <https://dbpedia.org/page/Chemical_element> ;
+            rdfs:label "pollyted by"@en ,
+                       "загрязнен"@ru .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://irnok.net/ontology/geopollution#amount
+:amount rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
+        rdfs:domain :RockFormingElement ,
+                    :RockFormingOxide ;
+        rdfs:range xsd:double .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> rdf:type owl:DatatypeProperty ,
+                                                       owl:FunctionalProperty ;
+                                              rdfs:domain <https://dbpedia.org/page/Place> ;
+                                              rdfs:range xsd:double .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> rdf:type owl:DatatypeProperty ,
+                                                        owl:FunctionalProperty ;
+                                               rdfs:domain <https://dbpedia.org/page/Place> ;
+                                               rdfs:range xsd:double .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://irnok.net/ontology/geopollution#Contaminant
+:Contaminant rdf:type owl:Class ;
+             rdfs:subClassOf <https://dbpedia.org/page/Chemical_element> ;
+             rdfs:label "contaminant"@en ,
+                        "Загрязняющий элемент"@ru .
+
+
+###  http://irnok.net/ontology/geopollution#RockFormingElement
+:RockFormingElement rdf:type owl:Class ;
+                    rdfs:subClassOf <https://dbpedia.org/page/Chemical_element> ;
+                    rdfs:label "Rock forming element"@en ,
+                               "Породообразующий элемент"@ru .
+
+
+###  http://irnok.net/ontology/geopollution#RockFormingOxide
+:RockFormingOxide rdf:type owl:Class ;
+                  rdfs:subClassOf <https://dbpedia.org/page/Oxide> ;
+                  rdfs:label "Rock forming oxide"@en ,
+                             "Породообразующий оксид"@ru .
+
+
+###  https://dbpedia.org/page/Chemical_element
+<https://dbpedia.org/page/Chemical_element> rdf:type owl:Class ;
+                                            rdfs:label "Chemical element"@en ,
+                                                       "Химический элемент"@ru .
+
+
+###  https://dbpedia.org/page/Oxide
+<https://dbpedia.org/page/Oxide> rdf:type owl:Class ;
+                                 rdfs:label "Oxide"@en ,
+                                            "Оксид"@ru .
+
+
+###  https://dbpedia.org/page/Place
+<https://dbpedia.org/page/Place> rdf:type owl:Class ;
+                                 rdfs:label "Loation"@en ,
+                                            "Место"@ru .
+
+
+###  https://dbpedia.org/page/Sample_(material)
+<https://dbpedia.org/page/Sample_(material)> rdf:type owl:Class ;
+                                             rdfs:label "Sample"@en ,
+                                                        "Образец"@ru .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://dbpedia.org/resource/Aluminium
+<http://dbpedia.org/resource/Aluminium> rdf:type owl:NamedIndividual ,
+                                                 :RockFormingElement ;
+                                        rdfs:label "aluminium"@en ,
+                                                   "алюминий"@ru .
+
+
+###  http://dbpedia.org/resource/Aluminium_oxide
+<http://dbpedia.org/resource/Aluminium_oxide> rdf:type owl:NamedIndividual ,
+                                                       :RockFormingOxide ;
+                                              rdfs:label "aluminium oxide"@en ,
+                                                         "оксид алюминия"@ru .
+
+
+###  http://dbpedia.org/resource/Arsenic
+<http://dbpedia.org/resource/Arsenic> rdf:type owl:NamedIndividual ,
+                                               :Contaminant ;
+                                      rdfs:label "arsenic"@en ,
+                                                 "мышьяк"@ru .
+
+
+###  http://dbpedia.org/resource/Beryllium
+<http://dbpedia.org/resource/Beryllium> rdf:type owl:NamedIndividual ,
+                                                 :Contaminant ;
+                                        rdfs:label "beryllium"@en ,
+                                                   "бериллий"@ru .
+
+
+###  http://dbpedia.org/resource/Calcium
+<http://dbpedia.org/resource/Calcium> rdf:type owl:NamedIndividual ,
+                                               :RockFormingElement ;
+                                      rdfs:label "calcuim"@en ,
+                                                 "кальций"@ru .
+
+
+###  http://dbpedia.org/resource/Calcium_oxide
+<http://dbpedia.org/resource/Calcium_oxide> rdf:type owl:NamedIndividual ,
+                                                     :RockFormingOxide ;
+                                            rdfs:label "calcium oxide"@en ,
+                                                       "оксид кальция"@ru .
+
+
+###  http://dbpedia.org/resource/Cerium
+<http://dbpedia.org/resource/Cerium> rdf:type owl:NamedIndividual ,
+                                              :Contaminant ;
+                                     rdfs:label "cerium"@en ,
+                                                "церий"@ru .
+
+
+###  http://dbpedia.org/resource/Chromium
+<http://dbpedia.org/resource/Chromium> rdf:type owl:NamedIndividual ,
+                                                :Contaminant ;
+                                       rdfs:label "chromium"@en ,
+                                                  "хром"@ru .
+
+
+###  http://dbpedia.org/resource/Cobalt
+<http://dbpedia.org/resource/Cobalt> rdf:type owl:NamedIndividual ,
+                                              :Contaminant ;
+                                     rdfs:label "cobalt"@en ,
+                                                "кобальт"@ru .
+
+
+###  http://dbpedia.org/resource/Copper
+<http://dbpedia.org/resource/Copper> rdf:type owl:NamedIndividual ,
+                                              :Contaminant ;
+                                     rdfs:label "copper"@en ,
+                                                "медь"@ru .
+
+
+###  http://dbpedia.org/resource/Fluorine
+<http://dbpedia.org/resource/Fluorine> rdf:type owl:NamedIndividual ,
+                                                :Contaminant ;
+                                       rdfs:label "fluorine"@en ,
+                                                  "галлий"@ru ,
+                                                  "фтор"@ru .
+
+
+###  http://dbpedia.org/resource/Gallium
+<http://dbpedia.org/resource/Gallium> rdf:type owl:NamedIndividual ,
+                                               :Contaminant ;
+                                      rdfs:label "gallium"@en ,
+                                                 "галлий"@ru .
+
+
+###  http://dbpedia.org/resource/Iron
+<http://dbpedia.org/resource/Iron> rdf:type owl:NamedIndividual ,
+                                            :RockFormingElement ;
+                                   rdfs:label "iron"@en ,
+                                              "железо"@ru .
+
+
+###  http://dbpedia.org/resource/Lanthanum
+<http://dbpedia.org/resource/Lanthanum> rdf:type owl:NamedIndividual ,
+                                                 :Contaminant ;
+                                        rdfs:label "lanthanum"@en ,
+                                                   "лантан"@ru .
+
+
+###  http://dbpedia.org/resource/Lead
+<http://dbpedia.org/resource/Lead> rdf:type owl:NamedIndividual ,
+                                            :Contaminant ;
+                                   rdfs:label "lead"@en ,
+                                              "свинец"@ru .
+
+
+###  http://dbpedia.org/resource/Magnesium
+<http://dbpedia.org/resource/Magnesium> rdf:type owl:NamedIndividual ,
+                                                 :RockFormingElement ;
+                                        rdfs:label "magnesium"@en ,
+                                                   "магний"@ru .
+
+
+###  http://dbpedia.org/resource/Magnesium_oxide
+<http://dbpedia.org/resource/Magnesium_oxide> rdf:type owl:NamedIndividual ,
+                                                       :RockFormingOxide ;
+                                              rdfs:label "magnesium oxide"@en ,
+                                                         "оксид магния"@ru .
+
+
+###  http://dbpedia.org/resource/Manganese
+<http://dbpedia.org/resource/Manganese> rdf:type owl:NamedIndividual ,
+                                                 :RockFormingElement ;
+                                        rdfs:label "manganese"@en ,
+                                                   "марганец"@ru .
+
+
+###  http://dbpedia.org/resource/Neodymium
+<http://dbpedia.org/resource/Neodymium> rdf:type owl:NamedIndividual ,
+                                                 :Contaminant ;
+                                        rdfs:label "neodymium"@en ,
+                                                   "неодим"@ru .
+
+
+###  http://dbpedia.org/resource/Nickel
+<http://dbpedia.org/resource/Nickel> rdf:type owl:NamedIndividual ,
+                                              :Contaminant ;
+                                     rdfs:label "nickel"@en ,
+                                                "никель"@ru .
+
+
+###  http://dbpedia.org/resource/Niobium
+<http://dbpedia.org/resource/Niobium> rdf:type owl:NamedIndividual ,
+                                               :Contaminant ;
+                                      rdfs:label "niobium"@en ,
+                                                 "ниобий"@ru .
+
+
+###  http://dbpedia.org/resource/Oxygen
+<http://dbpedia.org/resource/Oxygen> rdf:type owl:NamedIndividual ,
+                                              :RockFormingElement ;
+                                     rdfs:label "oxygen"@en ,
+                                                "кислород"@ru .
+
+
+###  http://dbpedia.org/resource/Phosphorus
+<http://dbpedia.org/resource/Phosphorus> rdf:type owl:NamedIndividual ,
+                                                  :RockFormingElement ;
+                                         rdfs:label "phosphorus"@en ,
+                                                    "фосфор"@ru .
+
+
+###  http://dbpedia.org/resource/Phosphorus_trioxide
+<http://dbpedia.org/resource/Phosphorus_trioxide> rdf:type owl:NamedIndividual ,
+                                                           :RockFormingOxide ;
+                                                  rdfs:label "phosphorus trioxide"@en ,
+                                                             "триоксид фосфора"@ru .
+
+
+###  http://dbpedia.org/resource/Potassium
+<http://dbpedia.org/resource/Potassium> rdf:type owl:NamedIndividual ,
+                                                 :RockFormingElement ;
+                                        rdfs:label "potassium"@en ,
+                                                   "калий"@ru .
+
+
+###  http://dbpedia.org/resource/Potassium_oxide
+<http://dbpedia.org/resource/Potassium_oxide> rdf:type owl:NamedIndividual ,
+                                                       :RockFormingOxide ;
+                                              rdfs:label "potassium oxide"@en ,
+                                                         "оксид калия"@ru .
+
+
+###  http://dbpedia.org/resource/Rubidium
+<http://dbpedia.org/resource/Rubidium> rdf:type owl:NamedIndividual ,
+                                                :Contaminant ;
+                                       rdfs:label "rubidium"@en ,
+                                                  "рубидий"@ru .
+
+
+###  http://dbpedia.org/resource/Sodium
+<http://dbpedia.org/resource/Sodium> rdf:type owl:NamedIndividual ,
+                                              :RockFormingElement ;
+                                     rdfs:label "sodium"@en ,
+                                                "натрий"@ru .
+
+
+###  http://dbpedia.org/resource/Sodium_oxide
+<http://dbpedia.org/resource/Sodium_oxide> rdf:type owl:NamedIndividual ,
+                                                    :RockFormingOxide ;
+                                           rdfs:label "sodium oxide"@en ,
+                                                      "оксид натрия"@ru .
+
+
+###  http://dbpedia.org/resource/Strontium
+<http://dbpedia.org/resource/Strontium> rdf:type owl:NamedIndividual ,
+                                                 :Contaminant ;
+                                        rdfs:label "strontium"@en ,
+                                                   "стронций"@ru .
+
+
+###  http://dbpedia.org/resource/Thorium
+<http://dbpedia.org/resource/Thorium> rdf:type owl:NamedIndividual ,
+                                               :Contaminant ;
+                                      rdfs:label "thorium"@en ,
+                                                 "торий"@ru .
+
+
+###  http://dbpedia.org/resource/Tin
+<http://dbpedia.org/resource/Tin> rdf:type owl:NamedIndividual ,
+                                           :Contaminant ;
+                                  rdfs:label "tin"@en ,
+                                             "олово"@ru .
+
+
+###  http://dbpedia.org/resource/Titanium
+<http://dbpedia.org/resource/Titanium> rdf:type owl:NamedIndividual ,
+                                                :RockFormingElement ;
+                                       rdfs:label "titanium"@en ,
+                                                  "титан"@ru .
+
+
+###  http://dbpedia.org/resource/Titanium_dioxide
+<http://dbpedia.org/resource/Titanium_dioxide> rdf:type owl:NamedIndividual ,
+                                                        :RockFormingOxide ;
+                                               rdfs:label "titanium dioxide"@en ,
+                                                          "диоксид титана"@ru .
+
+
+###  http://dbpedia.org/resource/Tungsten
+<http://dbpedia.org/resource/Tungsten> rdf:type owl:NamedIndividual ,
+                                                :Contaminant ;
+                                       rdfs:label "tungsten"@en ,
+                                                  "вольфрам"@ru .
+
+
+###  http://dbpedia.org/resource/Uranium
+<http://dbpedia.org/resource/Uranium> rdf:type owl:NamedIndividual ,
+                                               :Contaminant ;
+                                      rdfs:label "uranium"@en ,
+                                                 "уран"@ru .
+
+
+###  http://dbpedia.org/resource/Vanadium
+<http://dbpedia.org/resource/Vanadium> rdf:type owl:NamedIndividual ,
+                                                :Contaminant ;
+                                       rdfs:label "vanadium"@en ,
+                                                  "ванадий"@ru .
+
+
+###  http://dbpedia.org/resource/Yttrium
+<http://dbpedia.org/resource/Yttrium> rdf:type owl:NamedIndividual ,
+                                               :Contaminant ;
+                                      rdfs:label "yttrium"@en ,
+                                                 "иттрий"@ru .
+
+
+###  http://dbpedia.org/resource/Zinc
+<http://dbpedia.org/resource/Zinc> rdf:type owl:NamedIndividual ,
+                                            :Contaminant ;
+                                   rdfs:label "zinc"@en ,
+                                              "цинк"@ru .
+
+
+###  http://dbpedia.org/resource/Zirconium
+<http://dbpedia.org/resource/Zirconium> rdf:type owl:NamedIndividual ,
+                                                 :Contaminant ;
+                                        rdfs:label "zirconium"@en ,
+                                                   "цирконий"@ru .
+
+
+###  http://dbpedia.org/resource/Iron(III)_oxide
+<http://dbpedia.org/resource/Iron(III)_oxide> rdf:type owl:NamedIndividual ,
+                                                       :RockFormingOxide ;
+                                              rdfs:label "iron(III) oxide"@en ,
+                                                         "гематит"@ru .
+
+
+###  http://dbpedia.org/resource/Manganese(II)_oxide
+<http://dbpedia.org/resource/Manganese(II)_oxide> rdf:type owl:NamedIndividual ,
+                                                           :RockFormingOxide ;
+                                                  rdfs:label "manganese monoxide"@en ,
+                                                             "моноксид марганца"@ru .
+
+
+###  https://dbpedia.org/page/Silicon
+<https://dbpedia.org/page/Silicon> rdf:type owl:NamedIndividual ,
+                                            :RockFormingElement ;
+                                   rdfs:label "silicium"@en ,
+                                              "кремний"@ru .
+
+
+###  https://dbpedia.org/page/Silicon_dioxide
+<https://dbpedia.org/page/Silicon_dioxide> rdf:type owl:NamedIndividual ,
+                                                    :RockFormingOxide ;
+                                           rdfs:label "quartz"@en ,
+                                                      "кварц"@ru .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<https://dbpedia.org/page/Electronic_component/SiO2> rdfs:label "кварц"@ru ,
+                                                                "quartz"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
