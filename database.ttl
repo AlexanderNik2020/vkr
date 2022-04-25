@@ -32,6 +32,6 @@
 # Пример ячейки таблицы
 
 :ugs-0211-Silicon_dioxide-amount
-    gp:pollutedBy dbp:Silicon ;
+    gp:pollutedBy dbp:Silicon_dioxide;
     gp:amount "53.39" ;
     gp:unit dbp:Percentage .
