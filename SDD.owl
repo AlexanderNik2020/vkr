@@ -15,8 +15,7 @@
 ###  http://irnok.net/ontology/geopollution#contains
 :contains rdf:type owl:ObjectProperty ;
           rdfs:domain <https://dbpedia.org/page/Sample_(material)> ;
-          rdfs:range :Contaminant ,
-                     :RockFormingElement ,
+          rdfs:range :RockFormingElement ,
                      :RockFormingOxide ;
           rdfs:label "contains"@en ,
                      "содержит"@ru .
@@ -68,13 +67,6 @@
 #################################################################
 #    Classes
 #################################################################
-
-###  http://irnok.net/ontology/geopollution#Contaminant
-:Contaminant rdf:type owl:Class ;
-             rdfs:subClassOf <https://dbpedia.org/page/Chemical_element> ;
-             rdfs:label "contaminant"@en ,
-                        "Загрязняющий элемент"@ru .
-
 
 ###  http://irnok.net/ontology/geopollution#RockFormingElement
 :RockFormingElement rdf:type owl:Class ;
@@ -134,14 +126,14 @@
 
 ###  http://dbpedia.org/resource/Arsenic
 <http://dbpedia.org/resource/Arsenic> rdf:type owl:NamedIndividual ,
-                                               :Contaminant ;
+                                               <https://dbpedia.org/page/Chemical_element> ;
                                       rdfs:label "arsenic"@en ,
                                                  "мышьяк"@ru .
 
 
 ###  http://dbpedia.org/resource/Beryllium
 <http://dbpedia.org/resource/Beryllium> rdf:type owl:NamedIndividual ,
-                                                 :Contaminant ;
+                                                 <https://dbpedia.org/page/Chemical_element> ;
                                         rdfs:label "beryllium"@en ,
                                                    "бериллий"@ru .
 
@@ -162,35 +154,35 @@
 
 ###  http://dbpedia.org/resource/Cerium
 <http://dbpedia.org/resource/Cerium> rdf:type owl:NamedIndividual ,
-                                              :Contaminant ;
+                                              <https://dbpedia.org/page/Chemical_element> ;
                                      rdfs:label "cerium"@en ,
                                                 "церий"@ru .
 
 
 ###  http://dbpedia.org/resource/Chromium
 <http://dbpedia.org/resource/Chromium> rdf:type owl:NamedIndividual ,
-                                                :Contaminant ;
+                                                <https://dbpedia.org/page/Chemical_element> ;
                                        rdfs:label "chromium"@en ,
                                                   "хром"@ru .
 
 
 ###  http://dbpedia.org/resource/Cobalt
 <http://dbpedia.org/resource/Cobalt> rdf:type owl:NamedIndividual ,
-                                              :Contaminant ;
+                                              <https://dbpedia.org/page/Chemical_element> ;
                                      rdfs:label "cobalt"@en ,
                                                 "кобальт"@ru .
 
 
 ###  http://dbpedia.org/resource/Copper
 <http://dbpedia.org/resource/Copper> rdf:type owl:NamedIndividual ,
-                                              :Contaminant ;
+                                              <https://dbpedia.org/page/Chemical_element> ;
                                      rdfs:label "copper"@en ,
                                                 "медь"@ru .
 
 
 ###  http://dbpedia.org/resource/Fluorine
 <http://dbpedia.org/resource/Fluorine> rdf:type owl:NamedIndividual ,
-                                                :Contaminant ;
+                                                <https://dbpedia.org/page/Chemical_element> ;
                                        rdfs:label "fluorine"@en ,
                                                   "галлий"@ru ,
                                                   "фтор"@ru .
@@ -198,7 +190,7 @@
 
 ###  http://dbpedia.org/resource/Gallium
 <http://dbpedia.org/resource/Gallium> rdf:type owl:NamedIndividual ,
-                                               :Contaminant ;
+                                               <https://dbpedia.org/page/Chemical_element> ;
                                       rdfs:label "gallium"@en ,
                                                  "галлий"@ru .
 
@@ -212,14 +204,14 @@
 
 ###  http://dbpedia.org/resource/Lanthanum
 <http://dbpedia.org/resource/Lanthanum> rdf:type owl:NamedIndividual ,
-                                                 :Contaminant ;
+                                                 <https://dbpedia.org/page/Chemical_element> ;
                                         rdfs:label "lanthanum"@en ,
                                                    "лантан"@ru .
 
 
 ###  http://dbpedia.org/resource/Lead
 <http://dbpedia.org/resource/Lead> rdf:type owl:NamedIndividual ,
-                                            :Contaminant ;
+                                            <https://dbpedia.org/page/Chemical_element> ;
                                    rdfs:label "lead"@en ,
                                               "свинец"@ru .
 
@@ -247,21 +239,21 @@
 
 ###  http://dbpedia.org/resource/Neodymium
 <http://dbpedia.org/resource/Neodymium> rdf:type owl:NamedIndividual ,
-                                                 :Contaminant ;
+                                                 <https://dbpedia.org/page/Chemical_element> ;
                                         rdfs:label "neodymium"@en ,
                                                    "неодим"@ru .
 
 
 ###  http://dbpedia.org/resource/Nickel
 <http://dbpedia.org/resource/Nickel> rdf:type owl:NamedIndividual ,
-                                              :Contaminant ;
+                                              <https://dbpedia.org/page/Chemical_element> ;
                                      rdfs:label "nickel"@en ,
                                                 "никель"@ru .
 
 
 ###  http://dbpedia.org/resource/Niobium
 <http://dbpedia.org/resource/Niobium> rdf:type owl:NamedIndividual ,
-                                               :Contaminant ;
+                                               <https://dbpedia.org/page/Chemical_element> ;
                                       rdfs:label "niobium"@en ,
                                                  "ниобий"@ru .
 
@@ -303,7 +295,7 @@
 
 ###  http://dbpedia.org/resource/Rubidium
 <http://dbpedia.org/resource/Rubidium> rdf:type owl:NamedIndividual ,
-                                                :Contaminant ;
+                                                <https://dbpedia.org/page/Chemical_element> ;
                                        rdfs:label "rubidium"@en ,
                                                   "рубидий"@ru .
 
@@ -324,21 +316,21 @@
 
 ###  http://dbpedia.org/resource/Strontium
 <http://dbpedia.org/resource/Strontium> rdf:type owl:NamedIndividual ,
-                                                 :Contaminant ;
+                                                 <https://dbpedia.org/page/Chemical_element> ;
                                         rdfs:label "strontium"@en ,
                                                    "стронций"@ru .
 
 
 ###  http://dbpedia.org/resource/Thorium
 <http://dbpedia.org/resource/Thorium> rdf:type owl:NamedIndividual ,
-                                               :Contaminant ;
+                                               <https://dbpedia.org/page/Chemical_element> ;
                                       rdfs:label "thorium"@en ,
                                                  "торий"@ru .
 
 
 ###  http://dbpedia.org/resource/Tin
 <http://dbpedia.org/resource/Tin> rdf:type owl:NamedIndividual ,
-                                           :Contaminant ;
+                                           <https://dbpedia.org/page/Chemical_element> ;
                                   rdfs:label "tin"@en ,
                                              "олово"@ru .
 
@@ -359,42 +351,42 @@
 
 ###  http://dbpedia.org/resource/Tungsten
 <http://dbpedia.org/resource/Tungsten> rdf:type owl:NamedIndividual ,
-                                                :Contaminant ;
+                                                <https://dbpedia.org/page/Chemical_element> ;
                                        rdfs:label "tungsten"@en ,
                                                   "вольфрам"@ru .
 
 
 ###  http://dbpedia.org/resource/Uranium
 <http://dbpedia.org/resource/Uranium> rdf:type owl:NamedIndividual ,
-                                               :Contaminant ;
+                                               <https://dbpedia.org/page/Chemical_element> ;
                                       rdfs:label "uranium"@en ,
                                                  "уран"@ru .
 
 
 ###  http://dbpedia.org/resource/Vanadium
 <http://dbpedia.org/resource/Vanadium> rdf:type owl:NamedIndividual ,
-                                                :Contaminant ;
+                                                <https://dbpedia.org/page/Chemical_element> ;
                                        rdfs:label "vanadium"@en ,
                                                   "ванадий"@ru .
 
 
 ###  http://dbpedia.org/resource/Yttrium
 <http://dbpedia.org/resource/Yttrium> rdf:type owl:NamedIndividual ,
-                                               :Contaminant ;
+                                               <https://dbpedia.org/page/Chemical_element> ;
                                       rdfs:label "yttrium"@en ,
                                                  "иттрий"@ru .
 
 
 ###  http://dbpedia.org/resource/Zinc
 <http://dbpedia.org/resource/Zinc> rdf:type owl:NamedIndividual ,
-                                            :Contaminant ;
+                                            <https://dbpedia.org/page/Chemical_element> ;
                                    rdfs:label "zinc"@en ,
                                               "цинк"@ru .
 
 
 ###  http://dbpedia.org/resource/Zirconium
 <http://dbpedia.org/resource/Zirconium> rdf:type owl:NamedIndividual ,
-                                                 :Contaminant ;
+                                                 <https://dbpedia.org/page/Chemical_element> ;
                                         rdfs:label "zirconium"@en ,
                                                    "цирконий"@ru .
 
