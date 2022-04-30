@@ -1861,7 +1861,7 @@ gp:unit a owl:AnnotationProperty .
 
 <contains> a owl:AnnotationProperty .
 
-<lessThan> a owl:AnnotationProperty .
+<lessThan> a dbp:Estimation .
 
 wgs:lat a owl:AnnotationProperty .
 
