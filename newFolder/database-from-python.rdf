@@ -14,10 +14,10 @@
         <rdfs:label xml:lang="en">Database of Pollutions on Olkhon Island</rdfs:label>
         <rdfs:label xml:lang="ru">База данных загрязнений на острове Ольхон</rdfs:label>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -25,52 +25,52 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution#amount -->
 
     <owl:AnnotationProperty rdf:about="http://irnok.net/ontology/geopollution#amount"/>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution#lessThan -->
 
     <owl:AnnotationProperty rdf:about="http://irnok.net/ontology/geopollution#lessThan"/>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution#pollutedBy -->
 
     <owl:AnnotationProperty rdf:about="http://irnok.net/ontology/geopollution#pollutedBy"/>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution#unit -->
 
     <owl:AnnotationProperty rdf:about="http://irnok.net/ontology/geopollution#unit"/>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/contains -->
 
     <owl:AnnotationProperty rdf:about="http://irnok.net/ontology/geopollution/contains"/>
-    
+
 
 
     <!-- http://www.w3.org/2003/01/geo/wgs84_pos#lat -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
-    
+
 
 
     <!-- http://www.w3.org/2003/01/geo/wgs84_pos#long -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -78,28 +78,28 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://dbpedia.org/page/Database -->
 
     <owl:Class rdf:about="http://dbpedia.org/page/Database"/>
-    
+
 
 
     <!-- http://dbpedia.org/page/Estimation -->
 
     <owl:Class rdf:about="http://dbpedia.org/page/Estimation"/>
-    
+
 
 
     <!-- http://dbpedia.org/page/Sample_(material) -->
 
     <owl:Class rdf:about="http://dbpedia.org/page/Sample_(material)"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -107,7 +107,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0211 -->
@@ -152,7 +152,7 @@
         <wgs:lat>53.149529993534</wgs:lat>
         <wgs:long>107.406912976875</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0212 -->
@@ -197,7 +197,7 @@
         <wgs:lat>53.1585080176591</wgs:lat>
         <wgs:long>107.407415974885</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0214 -->
@@ -242,7 +242,7 @@
         <wgs:lat>53.158809011802</wgs:lat>
         <wgs:long>107.392479004338</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0215 -->
@@ -287,7 +287,7 @@
         <wgs:lat>53.1541699636727</wgs:lat>
         <wgs:long>107.399696996435</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0216 -->
@@ -332,7 +332,7 @@
         <wgs:lat>53.1498309876769</wgs:lat>
         <wgs:long>107.391980029642</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0217 -->
@@ -377,7 +377,7 @@
         <wgs:lat>53.1544700358062</wgs:lat>
         <wgs:long>107.384762037545</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0218 -->
@@ -422,7 +422,7 @@
         <wgs:lat>53.1634479761123</wgs:lat>
         <wgs:long>107.385260006412</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0219 -->
@@ -467,7 +467,7 @@
         <wgs:lat>53.1680860184133</wgs:lat>
         <wgs:long>107.378037991002</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0220 -->
@@ -512,7 +512,7 @@
         <wgs:lat>53.1591079942882</wgs:lat>
         <wgs:long>107.377542033791</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0221 -->
@@ -557,7 +557,7 @@
         <wgs:lat>53.1408539693802</wgs:lat>
         <wgs:long>107.391480971127</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0222 -->
@@ -602,7 +602,7 @@
         <wgs:lat>53.1451920233666</wgs:lat>
         <wgs:long>107.399196010082</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0224 -->
@@ -647,7 +647,7 @@
         <wgs:lat>53.1538679637014</wgs:lat>
         <wgs:long>107.414632039144</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0225 -->
@@ -692,7 +692,7 @@
         <wgs:lat>53.1448900233954</wgs:lat>
         <wgs:long>107.414128035306</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0227 -->
@@ -737,7 +737,7 @@
         <wgs:lat>53.1359130050987</wgs:lat>
         <wgs:long>107.413625037297</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0228 -->
@@ -782,7 +782,7 @@
         <wgs:lat>53.1315750349313</wgs:lat>
         <wgs:long>107.405908992514</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0229 -->
@@ -827,7 +827,7 @@
         <wgs:lat>53.1225970108062</wgs:lat>
         <wgs:long>107.405408006161</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0230 -->
@@ -872,7 +872,7 @@
         <wgs:lat>53.1272369809448</wgs:lat>
         <wgs:long>107.398195965215</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0231 -->
@@ -917,7 +917,7 @@
         <wgs:lat>53.1318760290741</wgs:lat>
         <wgs:long>107.390981996431</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0233 -->
@@ -962,7 +962,7 @@
         <wgs:lat>53.1405529752373</wgs:lat>
         <wgs:long>107.406410984694</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0234 -->
@@ -1007,7 +1007,7 @@
         <wgs:lat>53.1182590406388</wgs:lat>
         <wgs:long>107.397695984691</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0235 -->
@@ -1052,7 +1052,7 @@
         <wgs:lat>53.122898004949</wgs:lat>
         <wgs:long>107.390484027564</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0237 -->
@@ -1097,7 +1097,7 @@
         <wgs:lat>53.1231969874352</wgs:lat>
         <wgs:long>107.37555895932</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0238 -->
@@ -1142,7 +1142,7 @@
         <wgs:lat>53.127535963431</wgs:lat>
         <wgs:long>107.383269974961</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0239 -->
@@ -1187,7 +1187,7 @@
         <wgs:lat>53.1637460365891</wgs:lat>
         <wgs:long>107.370321024209</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0240 -->
@@ -1232,7 +1232,7 @@
         <wgs:lat>53.1727239768952</wgs:lat>
         <wgs:long>107.370815975591</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0241 -->
@@ -1277,7 +1277,7 @@
         <wgs:lat>53.1773620191961</wgs:lat>
         <wgs:long>107.363592032343</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0242 -->
@@ -1322,7 +1322,7 @@
         <wgs:lat>53.1819989718496</wgs:lat>
         <wgs:long>107.356365993618</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0243 -->
@@ -1367,7 +1367,7 @@
         <wgs:lat>53.1866350024938</wgs:lat>
         <wgs:long>107.349139032885</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0244 -->
@@ -1412,7 +1412,7 @@
         <wgs:lat>53.1556519679725</wgs:lat>
         <wgs:long>107.325018011033</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0246 -->
@@ -1457,7 +1457,7 @@
         <wgs:lat>53.1602869927883</wgs:lat>
         <wgs:long>107.317791972309</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0247 -->
@@ -1502,7 +1502,7 @@
         <wgs:lat>53.1692650169134</wgs:lat>
         <wgs:long>107.318276027217</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0249 -->
@@ -1547,7 +1547,7 @@
         <wgs:lat>53.177951015532</wgs:lat>
         <wgs:long>107.333704009652</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0250 -->
@@ -1592,7 +1592,7 @@
         <wgs:lat>53.1504280306398</wgs:lat>
         <wgs:long>107.3621120397</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0251 -->
@@ -1637,7 +1637,7 @@
         <wgs:lat>53.1550649832934</wgs:lat>
         <wgs:long>107.354890024289</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0252 -->
@@ -1682,7 +1682,7 @@
         <wgs:lat>53.1501299701631</wgs:lat>
         <wgs:long>107.377045992761</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0255 -->
@@ -1727,7 +1727,7 @@
         <wgs:lat>53.168383995071</wgs:lat>
         <wgs:long>107.36309800297</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0256 -->
@@ -1772,7 +1772,7 @@
         <wgs:lat>53.1730210315436</wgs:lat>
         <wgs:long>107.355873975902</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0258 -->
@@ -1817,7 +1817,7 @@
         <wgs:lat>53.1822940148413</wgs:lat>
         <wgs:long>107.341420976445</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0260 -->
@@ -1862,7 +1862,7 @@
         <wgs:lat>53.1510170269757</wgs:lat>
         <wgs:long>107.33224296011</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0262 -->
@@ -1907,7 +1907,7 @@
         <wgs:lat>53.1733149848878</wgs:lat>
         <wgs:long>107.340931976214</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0266 -->
@@ -1952,7 +1952,7 @@
         <wgs:lat>53.1466740276664</wgs:lat>
         <wgs:long>107.324533034116</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0267 -->
@@ -1997,7 +1997,7 @@
         <wgs:lat>53.1463809963315</wgs:lat>
         <wgs:long>107.339465981349</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0268 -->
@@ -2042,7 +2042,7 @@
         <wgs:lat>53.1553590204566</wgs:lat>
         <wgs:long>107.339953975752</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0269 -->
@@ -2087,7 +2087,7 @@
         <wgs:lat>53.1597010139375</wgs:lat>
         <wgs:long>107.34766700305</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGS-0270 -->
@@ -2132,7 +2132,7 @@
         <wgs:lat>53.1686790380626</wgs:lat>
         <wgs:long>107.348158014938</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/UGW-0264 -->
@@ -2177,7 +2177,7 @@
         <wgs:lat>53.1550649832934</wgs:lat>
         <wgs:long>107.354890024289</wgs:long>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/lessThan -->
@@ -2185,7 +2185,7 @@
     <owl:NamedIndividual rdf:about="http://irnok.net/ontology/geopollution/lessThan">
         <rdf:type rdf:resource="http://dbpedia.org/page/Estimation"/>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://irnok.net/ontology/geopollution/pollutiondb -->
@@ -2193,10 +2193,10 @@
     <owl:NamedIndividual rdf:about="http://irnok.net/ontology/geopollution/pollutiondb">
         <rdf:type rdf:resource="http://dbpedia.org/page/Database"/>
     </owl:NamedIndividual>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotations
@@ -10259,4 +10259,3 @@
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
