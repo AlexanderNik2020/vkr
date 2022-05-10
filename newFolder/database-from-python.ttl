@@ -21,6 +21,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0211> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0211"@en ;
     <contains> <UGS-0211-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0211-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0211-https://dbpedia.org/page/Barium-amount>,
@@ -61,6 +62,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0212> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0212"@en ;
     <contains> <UGS-0212-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0212-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0212-https://dbpedia.org/page/Barium-amount>,
@@ -101,6 +103,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0214> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0214"@en ;
     <contains> <UGS-0214-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0214-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0214-https://dbpedia.org/page/Barium-amount>,
@@ -141,6 +144,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0215> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0215"@en ;
     <contains> <UGS-0215-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0215-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0215-https://dbpedia.org/page/Barium-amount>,
@@ -181,6 +185,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0216> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0216"@en ;
     <contains> <UGS-0216-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0216-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0216-https://dbpedia.org/page/Barium-amount>,
@@ -221,6 +226,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0217> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0217"@en ;
     <contains> <UGS-0217-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0217-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0217-https://dbpedia.org/page/Barium-amount>,
@@ -261,6 +267,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0218> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0218"@en ;
     <contains> <UGS-0218-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0218-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0218-https://dbpedia.org/page/Barium-amount>,
@@ -301,6 +308,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0219> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0219"@en ;
     <contains> <UGS-0219-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0219-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0219-https://dbpedia.org/page/Barium-amount>,
@@ -341,6 +349,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0220> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0220"@en ;
     <contains> <UGS-0220-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0220-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0220-https://dbpedia.org/page/Barium-amount>,
@@ -381,6 +390,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0221> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0221"@en ;
     <contains> <UGS-0221-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0221-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0221-https://dbpedia.org/page/Barium-amount>,
@@ -421,6 +431,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0222> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0222"@en ;
     <contains> <UGS-0222-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0222-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0222-https://dbpedia.org/page/Barium-amount>,
@@ -461,6 +472,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0224> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0224"@en ;
     <contains> <UGS-0224-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0224-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0224-https://dbpedia.org/page/Barium-amount>,
@@ -501,6 +513,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0225> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0225"@en ;
     <contains> <UGS-0225-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0225-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0225-https://dbpedia.org/page/Barium-amount>,
@@ -541,6 +554,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0227> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0227"@en ;
     <contains> <UGS-0227-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0227-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0227-https://dbpedia.org/page/Barium-amount>,
@@ -581,6 +595,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0228> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0228"@en ;
     <contains> <UGS-0228-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0228-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0228-https://dbpedia.org/page/Barium-amount>,
@@ -621,6 +636,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0229> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0229"@en ;
     <contains> <UGS-0229-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0229-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0229-https://dbpedia.org/page/Barium-amount>,
@@ -661,6 +677,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0230> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0230"@en ;
     <contains> <UGS-0230-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0230-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0230-https://dbpedia.org/page/Barium-amount>,
@@ -701,6 +718,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0231> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0231"@en ;
     <contains> <UGS-0231-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0231-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0231-https://dbpedia.org/page/Barium-amount>,
@@ -741,6 +759,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0233> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0233"@en ;
     <contains> <UGS-0233-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0233-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0233-https://dbpedia.org/page/Barium-amount>,
@@ -781,6 +800,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0234> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0234"@en ;
     <contains> <UGS-0234-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0234-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0234-https://dbpedia.org/page/Barium-amount>,
@@ -821,6 +841,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0235> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0235"@en ;
     <contains> <UGS-0235-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0235-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0235-https://dbpedia.org/page/Barium-amount>,
@@ -861,6 +882,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0237> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0237"@en ;
     <contains> <UGS-0237-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0237-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0237-https://dbpedia.org/page/Barium-amount>,
@@ -901,6 +923,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0238> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0238"@en ;
     <contains> <UGS-0238-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0238-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0238-https://dbpedia.org/page/Barium-amount>,
@@ -941,6 +964,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0239> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0239"@en ;
     <contains> <UGS-0239-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0239-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0239-https://dbpedia.org/page/Barium-amount>,
@@ -981,6 +1005,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0240> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0240"@en ;
     <contains> <UGS-0240-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0240-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0240-https://dbpedia.org/page/Barium-amount>,
@@ -1021,6 +1046,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0241> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0241"@en ;
     <contains> <UGS-0241-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0241-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0241-https://dbpedia.org/page/Barium-amount>,
@@ -1061,6 +1087,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0242> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0242"@en ;
     <contains> <UGS-0242-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0242-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0242-https://dbpedia.org/page/Barium-amount>,
@@ -1101,6 +1128,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0243> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0243"@en ;
     <contains> <UGS-0243-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0243-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0243-https://dbpedia.org/page/Barium-amount>,
@@ -1141,6 +1169,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0244> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0244"@en ;
     <contains> <UGS-0244-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0244-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0244-https://dbpedia.org/page/Barium-amount>,
@@ -1181,6 +1210,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0246> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0246"@en ;
     <contains> <UGS-0246-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0246-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0246-https://dbpedia.org/page/Barium-amount>,
@@ -1221,6 +1251,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0247> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0247"@en ;
     <contains> <UGS-0247-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0247-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0247-https://dbpedia.org/page/Barium-amount>,
@@ -1261,6 +1292,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0249> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0249"@en ;
     <contains> <UGS-0249-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0249-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0249-https://dbpedia.org/page/Barium-amount>,
@@ -1301,6 +1333,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0250> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0250"@en ;
     <contains> <UGS-0250-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0250-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0250-https://dbpedia.org/page/Barium-amount>,
@@ -1341,6 +1374,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0251> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0251"@en ;
     <contains> <UGS-0251-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0251-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0251-https://dbpedia.org/page/Barium-amount>,
@@ -1381,6 +1415,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0252> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0252"@en ;
     <contains> <UGS-0252-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0252-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0252-https://dbpedia.org/page/Barium-amount>,
@@ -1421,6 +1456,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0255> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0255"@en ;
     <contains> <UGS-0255-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0255-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0255-https://dbpedia.org/page/Barium-amount>,
@@ -1461,6 +1497,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0256> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0256"@en ;
     <contains> <UGS-0256-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0256-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0256-https://dbpedia.org/page/Barium-amount>,
@@ -1501,6 +1538,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0258> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0258"@en ;
     <contains> <UGS-0258-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0258-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0258-https://dbpedia.org/page/Barium-amount>,
@@ -1541,6 +1579,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0260> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0260"@en ;
     <contains> <UGS-0260-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0260-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0260-https://dbpedia.org/page/Barium-amount>,
@@ -1581,6 +1620,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0262> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0262"@en ;
     <contains> <UGS-0262-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0262-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0262-https://dbpedia.org/page/Barium-amount>,
@@ -1621,6 +1661,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0266> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0266"@en ;
     <contains> <UGS-0266-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0266-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0266-https://dbpedia.org/page/Barium-amount>,
@@ -1661,6 +1702,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0267> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0267"@en ;
     <contains> <UGS-0267-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0267-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0267-https://dbpedia.org/page/Barium-amount>,
@@ -1701,6 +1743,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0268> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0268"@en ;
     <contains> <UGS-0268-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0268-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0268-https://dbpedia.org/page/Barium-amount>,
@@ -1741,6 +1784,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0269> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0269"@en ;
     <contains> <UGS-0269-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0269-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0269-https://dbpedia.org/page/Barium-amount>,
@@ -1781,6 +1825,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGS-0270> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGS-0270"@en ;
     <contains> <UGS-0270-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGS-0270-https://dbpedia.org/page/Arsenic-amount>,
         <UGS-0270-https://dbpedia.org/page/Barium-amount>,
@@ -1821,6 +1866,7 @@ gp:unit a owl:AnnotationProperty .
 
 <UGW-0264> a dbp:Sample_(material),
         owl:NamedIndividual ;
+    rdfs:label "UGW-0264"@en ;
     <contains> <UGW-0264-https://dbpedia.org/page/Aluminium_oxide-amount>,
         <UGW-0264-https://dbpedia.org/page/Arsenic-amount>,
         <UGW-0264-https://dbpedia.org/page/Barium-amount>,
