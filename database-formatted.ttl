@@ -49,8 +49,8 @@ wgs:long rdf:type owl:AnnotationProperty .
 <http://dbpedia.org/ontology/Database> rdf:type owl:Class .
 
 
-###  http://dbpedia.org/page/Sample_(material)
-<http://dbpedia.org/page/Sample_(material)> rdf:type owl:Class .
+###  http://dbpedia.org/page/SampleMaterial
+<http://dbpedia.org/page/SampleMaterial> rdf:type owl:Class .
 
 
 #################################################################
@@ -64,7 +64,7 @@ wgs:long rdf:type owl:AnnotationProperty .
 
 ###  http://irnok.net/ontology/geopollution/pollutiondb#ugs-0211
 :ugs-0211 rdf:type owl:NamedIndividual ,
-                   <http://dbpedia.org/page/Sample_(material)> ;
+                   <http://dbpedia.org/page/SampleMaterial> ;
           :contains :ugs-0211-Aluminium_oxide-amount ,
                     :ugs-0211-Silicon_dioxide-amount ;
           rdfs:label "UGS-0211"@en ;

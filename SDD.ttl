@@ -14,7 +14,7 @@
 
 ###  http://irnok.net/ontology/geopollution#contains
 :contains rdf:type owl:ObjectProperty ;
-          rdfs:domain <https://dbpedia.org/page/Sample_(material)> ;
+          rdfs:domain <https://dbpedia.org/page/SampleMaterial> ;
           rdfs:range :RockFormingElement ,
                      :RockFormingOxide ;
           rdfs:label "contains"@en ,
@@ -23,7 +23,7 @@
 
 ###  http://irnok.net/ontology/geopollution#locatedAt
 :locatedAt rdf:type owl:ObjectProperty ;
-           rdfs:domain <https://dbpedia.org/page/Sample_(material)> ;
+           rdfs:domain <https://dbpedia.org/page/SampleMaterial> ;
            rdfs:range <https://dbpedia.org/page/Place> ;
            rdfs:label "located at"@en ,
                       "находится"@ru .
@@ -31,7 +31,7 @@
 
 ###  http://irnok.net/ontology/geopollution#pollutedBy
 :pollutedBy rdf:type owl:ObjectProperty ;
-            rdfs:domain <https://dbpedia.org/page/Sample_(material)> ;
+            rdfs:domain <https://dbpedia.org/page/SampleMaterial> ;
             rdfs:range :RockFormingOxide ,
                        <https://dbpedia.org/page/Chemical_element> ;
             rdfs:label "polluted by"@en ,
@@ -100,8 +100,8 @@
                                             "Место"@ru .
 
 
-###  https://dbpedia.org/page/Sample_(material)
-<https://dbpedia.org/page/Sample_(material)> rdf:type owl:Class ;
+###  https://dbpedia.org/page/SampleMaterial
+<https://dbpedia.org/page/SampleMaterial> rdf:type owl:Class ;
                                              rdfs:label "Sample"@en ,
                                                         "Образец"@ru .
 

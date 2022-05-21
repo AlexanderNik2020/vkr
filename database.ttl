@@ -22,7 +22,7 @@
 # <https://irnok.net/ontology/geopollution/pollutiondb> ...:hasRecord :ugs-0211
 
 :ugs-0211
-    rdf:type <http://dbpedia.org/page/Sample_(material)> ;
+    rdf:type <http://dbpedia.org/page/SampleMaterial> ;
     rdfs:label "UGS-0211"@en ;
     wgs:lat "53.149529993534"^^xsd:float ;
     wgs:long "107.406912976875"^^xsd:float ;
