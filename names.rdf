@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dbr="http://dbpedia.org/resource/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Silicon_dioxide">
+    <rdfs:label xml:lang="ru">Диоксид кремния</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Lead">
+    <rdfs:label xml:lang="ru">Свинец</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Tin">
+    <rdfs:label xml:lang="ru">Жесть</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Sodium_oxide">
+    <rdfs:label xml:lang="ru">Оксид натрия</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Lanthanum">
+    <rdfs:label xml:lang="ru">Лантан</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Vanadium">
+    <rdfs:label xml:lang="ru">Ванадий</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Gallium">
+    <rdfs:label xml:lang="ru">Галлий</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Percentage">
+    <rdfs:label xml:lang="ru">Процент</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Barium">
+    <rdfs:label xml:lang="ru">Барий</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Sulfur">
+    <rdfs:label xml:lang="ru">Сера</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Zirconium">
+    <rdfs:label xml:lang="ru">Цирконий</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Aluminium_oxide">
+    <rdfs:label xml:lang="ru">Оксид алюминия</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Niobium">
+    <rdfs:label xml:lang="ru">Ниобий</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Arsenic">
+    <rdfs:label xml:lang="ru">Мышьяк</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Strontium">
+    <rdfs:label xml:lang="ru">Стронций</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Titanium_dioxide">
+    <rdfs:label xml:lang="ru">Оксид титана(IV)</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Cobalt">
+    <rdfs:label xml:lang="ru">Кобальт</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Copper">
+    <rdfs:label xml:lang="ru">Медь</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Calcium_oxide">
+    <rdfs:label xml:lang="ru">Оксид кальция</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Magnesium_oxide">
+    <rdfs:label xml:lang="ru">Оксид магния</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Cerium">
+    <rdfs:label xml:lang="ru">Церий</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Manganese(II)_oxide">
+    <rdfs:label xml:lang="ru">Оксид марганца(II)</rdfs:label>
+  </dbr:Matter>
+  <rdf:Description rdf:about="http://irnok.net/ontology/geopollution#PartsPerMillion">
+    <rdfs:label xml:lang="en">PPM</rdfs:label>
+  </rdf:Description>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Carbon">
+    <rdfs:label xml:lang="ru">Углерод</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Thorium">
+    <rdfs:label xml:lang="ru">Торий</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Potassium_oxide">
+    <rdfs:label xml:lang="ru">Оксид калия</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Phosphorus_trioxide">
+    <rdfs:label xml:lang="ru">Оксид фосфора(III)</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Iron(III)_oxide">
+    <rdfs:label xml:lang="ru">Гематит</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Chromium">
+    <rdfs:label xml:lang="ru">Хром</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Rubidium">
+    <rdfs:label xml:lang="ru">Рубидий</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Tungsten">
+    <rdfs:label xml:lang="ru">Вольфрам</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Yttrium">
+    <rdfs:label xml:lang="ru">Иттрий</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Uranium">
+    <rdfs:label xml:lang="ru">Хенодезоксихолевая кислота</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Fluorine">
+    <rdfs:label xml:lang="ru">Фтор</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Zinc">
+    <rdfs:label xml:lang="ru">Цинк</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Neodymium">
+    <rdfs:label xml:lang="ru">Неодим</rdfs:label>
+  </dbr:Matter>
+  <dbr:Matter rdf:about="http://dbpedia.org/resource/Nickel">
+    <rdfs:label xml:lang="ru">Никель</rdfs:label>
+  </dbr:Matter>
+</rdf:RDF>
